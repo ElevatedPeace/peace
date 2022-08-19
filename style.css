@@ -336,7 +336,7 @@ img {
 /* animation*/
 @keyframes slideInFromLeft {
     0% {
-        transform: translateX(-100%);
+        transform: translateX(100%);
     }
     100% {
         transform: translateX(0);
@@ -352,10 +352,10 @@ img {
 }
 @keyframes slideInFromTop {
     0% {
-        transform: translateY(-100%);
+        transform: translateX(100%);
     }
     100% {
-        transform: translateX(0);
+        transform: rotateY(90deg);
     }
 }
 @keyframes slideInFromBottom {
